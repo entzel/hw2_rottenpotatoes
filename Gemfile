@@ -2,6 +2,15 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.0'
 
+
+#added from chapter 4 
+#use Haml for templates
+gem 'haml'
+#use ruby debugger
+group :development, :test do
+		gem'debugger'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -17,7 +26,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'therubyracer'              
+  gem 'therubyracer'   
+  #gem 'libv8', '3.16.14.3'           
   gem 'sass-rails', "  ~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'

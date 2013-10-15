@@ -7,7 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 movies = [{:title => 'Aladdin', :rating => 'G', :release_date => '25-Nov-1992'},
-         {:title => 'Mulan', :rating => 'PG', :release_date => '5-Jun-1998'},
         {:title => 'The Terminator', :rating => 'R', :release_date => '26-Oct-1984'},
     	  {:title => 'When Harry Met Sally', :rating => 'R', :release_date => '21-Jul-1989'},
       	  {:title => 'The Help', :rating => 'PG-13', :release_date => '10-Aug-2011'},
