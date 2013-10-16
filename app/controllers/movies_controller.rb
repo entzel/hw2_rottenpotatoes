@@ -43,11 +43,11 @@ class MoviesController < ApplicationController
     end
 
     #if the title exists, store it to sort 
-    if not @header.nil?  then session[:header] = @header; end
+    if not @order_by.nil?  then session[:order_by] = @order_by; end
   
 
     #sort by ratings and order by header
-    @movies = Movie.where(rating: @ratings.keys).order(@header)
+    @movies = Movie.where(rating: @ratings.keys).order(@order_by)
     
   end
 
